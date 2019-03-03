@@ -1,7 +1,7 @@
 /*style.css general --------*/
 
 @font-face {
-  font-family: AnironC;
+  font-family: "AnironC";
   src: local('/Polices/AnironC.ttf') format("AnironC");
 }
 
