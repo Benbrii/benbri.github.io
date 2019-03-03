@@ -1,8 +1,8 @@
 /*style.css general --------*/
 
 @font-face {
-  font-family: "AnironC";
-  src: local('/Polices/AnironC.ttf') format("AnironC");
+  font-family: 'AnironC';
+  src: url('Polices/AnironC.ttf');
 }
 
 body {
