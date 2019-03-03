@@ -1,4 +1,10 @@
 /*style.css general --------*/
+
+@font-face {
+  font-family: AnironC;
+  src: local('/benbri.github.io/polices/AnironC.ttf') format("AnironC");
+}
+
 body {
   font-family: AnironC;
   background-image: url('https://i.ibb.co/BrGQJ32/bg-light.png')
