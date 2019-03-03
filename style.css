@@ -1,20 +1,52 @@
-/*style.css --------*/
+/*style.css general --------*/
 body {
   font-family: AnironC;
+  background-image: url('https://i.ibb.co/BrGQJ32/bg-light.png')
+}
+
+hr {
+  border-top: 2px solid #FFA033;
+  width: 500px;
+}
+
+.symbole {
+  font-family: Tengwar Annatar;
+  color: #FFA033;
 }
 
 /*NavBar ----------*/
 
-.navbar-nav {
-  background-color: #FFA033;
+.bg-light {
+  background-color: #FFA033 !important;
 }
 
-/*carousel : img of Gandalf / opacity ----------------------------------------------------------------------------------------*/
+ul {
+  margin-left: auto;
+  list-style-type: none;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+/*Carousel ---------*/
+
+.carousel-caption {
+  margin-bottom: 160px;
+}
+
+/*NavPills -------------*/
+
+.nav-link {
+  color: #FFA033;
+}
+
+/*card : img of Gandalf / opacity ----------------------------------------------------------------------------------------*/
 .card-img-top {
   opacity: 0.5;
 }
 
-/*carousel : text of Gandalf ----------------------------------------------------------------------------------------*/
+/*card : text of Gandalf ----------------------------------------------------------------------------------------*/
 .nametext {
 	position: absolute;
   color: white;
@@ -23,7 +55,7 @@ body {
   font-size: 2em;
 }
 
-/*carousel : reward of Gandalf + span ----------------------------------------------------------------------------------------*/
+/*card : reward of Gandalf + span ----------------------------------------------------------------------------------------*/
 .rewardtext {
 	position: absolute;
  	background-color: rgba(255, 255, 255, 0.75);
@@ -41,7 +73,7 @@ span {
   color: #FE6B0A;
 }
 
-/*carousel : hover reaction ! ----------------------------------------------------------------------------------------*/
+/*card : hover reaction ! ----------------------------------------------------------------------------------------*/
 .card:hover .rewardtext {
   opacity : 0;
 }
