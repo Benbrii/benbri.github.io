@@ -10,6 +10,11 @@
   src: url('Polices/tngan.ttf');
 }
 
+@font-face {
+  font-family: 'Party Business';
+  src: url('Polices/partybusiness.ttf');
+}
+
 body {
   font-family: AnironC;
   background-image: url('https://i.ibb.co/BrGQJ32/bg-light.png')
@@ -52,6 +57,12 @@ ul {
   color: #FFA033;
 }
 
+
+/*card : details -------------------*/
+.card {
+  
+}
+
 /*card : img of Gandalf / opacity ----------------------------------------------------------------------------------------*/
 .card-img-top {
   opacity: 0.5;
@@ -62,7 +73,7 @@ ul {
 	position: absolute;
   color: white;
   top: 250px;
-  left: 90px;
+  left: 50px;
   font-size: 2em;
 }
 
@@ -72,10 +83,10 @@ ul {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 8px;
   color: black;
-  top: 5px;
+  top: 1px;
   right: 1.5px;
-  font-size: 2em;
-  margin: 8px;
+  font-size: 1.5em;
+  margin: 2px;
   padding: .5em;
   opacity: 1;
 }
@@ -96,5 +107,5 @@ span {
 .card:hover .nametext{
   font-size: 2em;
   top: 65%;
-  left: 30%;
+  left: 18%;
 }
