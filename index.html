@@ -132,8 +132,8 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top" alt="PictureofGandalf">
+        <div class="card" style="width: 18rem;" id=rewardcard>
+          <img src="integration_maquette_finale/gandalf.png" class="card-img-top" alt="PictureofGandalf">
           <div class="card-body">
             <h5 class="nametext">Gandalf</h5>
             <p class="rewardtext">reward <span>1000</span> golden coins</p>
@@ -143,10 +143,10 @@
         </div>
       </div>
       <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top" alt="PictureofGandalf">
+        <div class="card" style="width: 18rem;" id=rewardcard>
+          <img src="integration_maquette_finale/aragorn.png" class="card-img-top" alt="PictureofGandalf">
           <div class="card-body">
-            <h5 class="nametext">Aragord</h5>
+            <h5 class="nametext">Aragorn</h5>
             <p class="rewardtext">reward <span>1000</span> golden coins</p>
             <h5 class="card-title">The Wizard</h5>
             <p class="card-text">sauron's finger says his sword is dangerous...</p>
@@ -154,11 +154,11 @@
         </div>
       </div>
       <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top" alt="PictureofGandalf">
+        <div class="card" style="width: 18rem;" id=rewardcard>
+          <img src="integration_maquette_finale/gimli.png" class="card-img-top" alt="PictureofGandalf">
           <div class="card-body">
-            <h5 class="nametext">Gimli</h5>
-            <p class="rewardtext"><span>dead</span></p>
+            <h5 class="nametext"><strike>Gimli</strike></h5>
+            <p class="rewardtext" id="gimlidead"><span>dead</span></p>
             <h5 class="card-title">The Wizard</h5>
             <p class="card-text">a dwarf with a beard and an axe, who love bears...</p>
           </div>
@@ -172,7 +172,7 @@
   <!-- Get my reward -->
 
   <section id="get_my_reward">
-    <div class="container">
+    <div class="container" id="capturedbg">
       <hr>
       <div class="row">
         <div class="col-sm-1">
@@ -188,32 +188,32 @@
     </div>
   </section>
 
-  <div class="container">
+  <div class="container" id="capturedbg2">
     <div class="row">
       <div class="col-sm">
         <div class="media">
           <div class="media-body">
             Tu autem, Fanni, quod mihi tantum tribui dicis quantum ego nec adgnosco nec postulo, facis amice; sed, ut mihi videris, non recte iudicas de Catone; aut enim nemo, quod quidem magis credo, aut si quisquam, ille sapiens fuit. Quo modo, ut alia omittam, mortem filii tulit! memineram Paulum, videram Galum, sed hi in pueris, Cato in perfecto et spectato viro. Utque aegrum corpus quassari.
           </div>
-          <img src="https://via.placeholder.com/140x140" class="ml-3" alt="imageofreward">
+          <img src="integration_maquette_finale/coin_sauron.png" class="rounded-circle ml-3" alt="imageofreward">
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
+  <div class="container" id="capturedbg3">
     <div class="row">
       <div class="col offset-5">
-        <button type="button" class="btn btn-light">Contact Us</button>
+        <button type="button" class="btn btn-dark" id="contactusbutton">Contact Us</button>
       </div>
     </div>
+    <hr>
   </div>
 
   <!-- Best Hunters -->
 
   <section id="best_hunters">
     <div class="container">
-      <hr>
       <div class="row">
         <div class="col-sm-1">
           <h3 class="symbole">ij</h3>
@@ -233,24 +233,24 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <ul class="list-unstyled">
-          <li class="media">
-            <img src="https://via.placeholder.com/70x70" class="align-self-center mr-3" alt="imgbesthunters">
-            <div class="media-body">
-              <h5 class="mt-0 mb-1">ElvesKiller22</h5>
-              2 captures - <a href="lien_cliquable">Profile</a>
-            </div>
-          </li>
-        </ul>
+        <div class="media">
+          <img src="integration_maquette_finale/hunter1.png" class="align-self-center mr-3 rounded" alt="imgbesthunters">
+          <div class="media-body">
+            <h5 class="mt-0" id="besthunter1">ElvesKiller22</h5>
+            <div class="justformargin1">2 captures - <u>Profile</u></div>
+            <p class="mb-0" id="bglogo1"> <img src="integration_maquette_finale/logo2.png" class="rounded" id="logo21">12 coins</p>
+          </div>
+        </div>
       </div>
       <div class="col">
-        <li class="media">
-          <img src="https://via.placeholder.com/70x70" class="align-self-center mr-3" alt="imgbesthunters">
+        <div class="media">
+          <img src="integration_maquette_finale/hunter2.png" class="align-self-center mr-3 rounded" alt="imgbesthunters">
           <div class="media-body">
-            <h5 class="mt-0 mb-1">Goblin45</h5>
-            2 captures - <a href="lien_cliquable">Profile</a>
+            <h5 class="mt-0" id="besthunter2">Goblin45</h5>
+            <div class="justformargin2">2 captures - <u>Profile</u></div>
+            <p class="mb-0" id="bglogo2"> <img src="integration_maquette_finale/logo2.png" class="rounded" id="logo22">18 coins</p>
           </div>
-        </li>
+        </div>
       </div>
     </div>
   </div>
@@ -258,7 +258,7 @@
   <!-- About the ring -->
 
   <section id="the_ring">
-    <div class="container">
+    <div class="container" id="abouttheringbg1">
       <hr>
       <div class="row">
         <div class="col-sm-1">
@@ -271,23 +271,22 @@
           <h3 class="symbole">ij</h3>
         </div>
       </div>
+      <br>
     </div>
   </section>
 
-  <br>
-
-  <div class="container">
+  <div class="container" id="abouttheringbg2">
     <div class="row">
       <div class="col-sm">
-        <div class="card">
-          <h5 class="card-header"><b>Ring Capabilities</b></h5>
-          <div class="card-body">
+        <div class="card" id="aboutcardbg1">
+          <h4 class="card-header" id="aboutcardheader1"><b>Ring Capabilities</b></h4>
+          <div class="card-body" id="aboutcardbody1">
             <p class="card-text">What can our master Sauron do with the ring ?</p>
             <table class="table">
               <thead>
                <tr>
-                <th scope="col">Feature</th>
-                <th scope="col">Description</th>
+                <th scope="col" id="titretable1">Feature</th>
+                <th scope="col" id="titretable2">Description</th>
               </tr>
             </thead>
             <tbody>
@@ -304,44 +303,42 @@
                 <td>Destroy the world</td>
               </tr>
             </tbody>
-          </table>
+            </table>
+          </div>
         </div>
       </div>
     </div>
+    <br>
   </div>
-</div>
 
-<br>
-
-<div class="container">
-  <hr>
+<div class="container" id="abouttheringbg3">
   <div class="row">
     <div class="col-sm">
-      <div class="card">
-        <div class="card-header">
-          <h5><b>Featured</b></h5>
+      <div class="card" id="aboutcardbg2">
+        <div class="card-header" id="aboutcardheader2">
+          <h4><b>Featured</b></h4>
         </div>
-        <div class="media">
-          <div class="media-body">
+        <div class="media" id="aboutmedia">
+          <div class="media-body" id="aboutcardbody2">
             My preciouuuuuusssssss ! Hrk Hrk, we want our preciouuuuuuuuussssssss !!
             <blockquote class="blockquote mb-0">
-              <footer class="blockquote-footer">Gollum</footer>
+              <footer class="blockquote-footer" id="quotegollum">Gollum</footer>
             </blockquote>
           </div>
-          <img src="https://via.placeholder.com/110x110" class="ml-3" alt="imgofgollum">
+          <img src="integration_maquette_finale/gollum1.png" class="rounded-circle ml-3" alt="imgofgollum" id="imageofgollum">
         </div>
       </div>
     </div>
   </div>
+  <br>
+  <hr>
 </div>
 
-<br>
 
 <!-- Join the army -->
 
 <section id="join_the_army">
   <div class="container">
-    <hr>
     <div class="row">
       <div class="col-sm-1">
         <h3 class="symbole">ij</h3>
@@ -358,14 +355,14 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-2">
-      <div class="media">
-        <img src="https://via.placeholder.com/140x140" class="ml-3" alt="imageofreward">
-      </div>
-    </div>
-    <div class="col-sm-10">
+    <div class="col-sm-8">
       <div class="media-body">
         Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="media">
+        <img src="integration_maquette_finale/army.png" class="ml-3" alt="imageofreward" id="imgofarmy">
       </div>
     </div>
   </div>
@@ -373,8 +370,14 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm offset-4">
-      <button type="button" class="btn btn-light">More info on SauronRulesThemAll.com</button>
+    <div class="col-sm">
+      <div class="media">
+        <img src="integration_maquette_finale/weneedyou-1.png" class="ml-3" alt="imageofreward" id="imgofarmy">
+      </div>
+    </div>
+    <div class="col-sm" id="moreinfo">
+      <p>More info</p>
+      <button type="button" class="btn btn-dark" id="contactusbutton">SauronRulesThemAll.com</button>
     </div>
   </div>
 </div>
@@ -382,7 +385,7 @@
 <!-- Form -->
 
 <section id="contact_us">
-  <div class="container">
+  <div class="container" id="contform1">
     <hr>
     <div class="row">
       <div class="col-sm-1">
@@ -395,10 +398,11 @@
         <h3 class="symbole">ij</h3>
       </div>
     </div>
+    <br>
   </div>
 </section>
 
-<div class="container">
+<div class="container" id="contform2">
   <div class="row">
     <div class="col-sm">
       <form>
@@ -418,18 +422,20 @@
           </select>
         </div>
         <div class="form-group">
-          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="3"></textarea>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your message" rows="9"></textarea>
         </div>
       </form>
+    </div>
+    <div class="col-sm">
+      <img src="integration_maquette_finale/map.png" class="ml-3" alt="imageofreward" id="map">
     </div>
   </div>
 </div>
 
 <!-- End Page -->
 
-<div class="container">
-  <hr>
-  <div class="row">
+<div class="container" id="footer">
+  <div class="row" id="rowfooter">
     <div class="col-sm-3">
       <p>About Us</p>
       <p>Fellows</p>
@@ -441,9 +447,9 @@
       <p>Legal mentions</p>
     </div>
     <div class="col-sm-3 offset-2">
-      <br>
-      <h5>Sauron4Ever.com</h5>
-      <h5>Follow him also on twitter</h5>
+      <p>Sauron4Ever.com</p>
+      <p>Follow him also on twitter</p>
+      <img src="https://i.ibb.co/4jXTYJx/logo.png" href="#header">
     </div>
   </div>
 </div>

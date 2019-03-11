@@ -15,6 +15,11 @@
   src: url('Polices/partybusiness.ttf');
 }
 
+@font-face {
+  font-family: 'AnironB';
+  src: url('Polices/anirm.ttf');
+}
+
 body {
   font-family: AnironC;
   background-image: url('https://i.ibb.co/BrGQJ32/bg-light.png')
@@ -59,8 +64,14 @@ ul {
 
 
 /*card : details -------------------*/
-.card {
-  
+#rewardcard {
+  background-color: black;
+  color: white;
+  font-family: Party Business;
+}
+
+.card-title {
+  display: none;
 }
 
 /*card : img of Gandalf / opacity ----------------------------------------------------------------------------------------*/
@@ -73,7 +84,7 @@ ul {
 	position: absolute;
   color: white;
   top: 250px;
-  left: 50px;
+  left: 100px;
   font-size: 2em;
 }
 
@@ -84,9 +95,9 @@ ul {
   border-radius: 8px;
   color: black;
   top: 1px;
-  right: 1.5px;
+  right: 2px;
   font-size: 1.5em;
-  margin: 2px;
+  margin: 5px;
   padding: .5em;
   opacity: 1;
 }
@@ -94,6 +105,11 @@ ul {
 span {
   color: #FE6B0A;
 }
+
+#gimlidead {
+  margin-right: 100px;
+}
+
 
 /*card : hover reaction ! ----------------------------------------------------------------------------------------*/
 .card:hover .rewardtext {
@@ -106,6 +122,107 @@ span {
 
 .card:hover .nametext{
   font-size: 2em;
-  top: 65%;
-  left: 18%;
+  top: 60%;
+  left: 35%;
+}
+
+/*reward -----------------------------------*/
+
+#capturedbg, #capturedbg2, #capturedbg3 {
+  background-color: black;
+  color: white;
+}
+
+#contactusbutton {
+  color: #FFA033;
+}
+
+/*Best hunters -------------------------------------------*/
+
+#besthunter1, #besthunter2 {
+  color: #FFA033;
+  font-family: 'AnironB';
+}
+
+#bglogo1, #bglogo2 {
+  background-color: black;
+  margin-right: 260px;
+  margin-top: 26px;
+  color: #FFA033;
+}
+
+.coins1 {
+  font-family: Tengwar Annatar;
+}
+
+.coins2 {
+  font-family: Tengwar Annatar;
+}
+
+.justformargin1, .justformargin2 {
+  margin-top: 26px;
+}
+
+/*About the ring --------------------------------*/
+
+#abouttheringbg1, #abouttheringbg2, #abouttheringbg3, #aboutcardbg1, #aboutcardbg2 {
+  background-color: black;
+  color: white;
+}
+
+#aboutcardheader1, #aboutcardheader2 {
+  background-color: #FFA033;
+  color: white;
+}
+
+#aboutcardbody1, #aboutcardbody2, #aboutmedia, #quotegollum {
+  font-family: Party Business;
+  font-size: 30px;
+  background-color: #C7C7C8;
+  color: black;
+}
+
+#quotegollum {
+  margin-left: 800px;
+}
+
+#imageofgollum {
+  width: 180px;
+  height: 180px;
+}
+
+#titretable1, #titretable2 {
+  font-size: 40px;
+}
+
+/*Join -----------------------------------*/
+
+#imgofarmy {
+  height: 250px;
+  width: 400px;
+}
+
+#moreinfo {
+  margin-left: 200px;
+  margin-top: 70px;
+  color: #FFA033;
+}
+
+/*Form --------------------------------------*/
+
+#map {
+  height: 410px;
+  width: 500px;
+}
+
+#contform1, #contform2 {
+  background-color: black;
+  color: white;
+}
+
+/*footer -----------------------------------*/
+
+#footer {
+  background: #FFA033;
+  color: white;
 }
